@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		A90E03312180D46A00A0C41A /* CharacterSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90E03302180D46A00A0C41A /* CharacterSpacing.swift */; };
 		A90E033521810ABF00A0C41A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A90E033421810ABE00A0C41A /* Assets.xcassets */; };
-		A90E03372181108000A0C41A /* CustomSegControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90E03362181108000A0C41A /* CustomSegControl.swift */; };
+		A90E03372181108000A0C41A /* CustomSepControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90E03362181108000A0C41A /* CustomSepControl.swift */; };
 		A945173D217A3BC8000FBB71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A945173C217A3BC8000FBB71 /* AppDelegate.swift */; };
 		A945173F217A3BC8000FBB71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A945173E217A3BC8000FBB71 /* ViewController.swift */; };
 		A9451742217A3BC8000FBB71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9451740217A3BC8000FBB71 /* Main.storyboard */; };
@@ -19,7 +19,7 @@
 /* Begin PBXFileReference section */
 		A90E03302180D46A00A0C41A /* CharacterSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSpacing.swift; sourceTree = "<group>"; };
 		A90E033421810ABE00A0C41A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A90E03362181108000A0C41A /* CustomSegControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegControl.swift; sourceTree = "<group>"; };
+		A90E03362181108000A0C41A /* CustomSepControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSepControl.swift; sourceTree = "<group>"; };
 		A9451739217A3BC8000FBB71 /* SkyMood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyMood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A945173C217A3BC8000FBB71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A945173E217A3BC8000FBB71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 			children = (
 				A945173C217A3BC8000FBB71 /* AppDelegate.swift */,
 				A90E03302180D46A00A0C41A /* CharacterSpacing.swift */,
-				A90E03362181108000A0C41A /* CustomSegControl.swift */,
+				A90E03362181108000A0C41A /* CustomSepControl.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -168,7 +168,7 @@
 				A945173F217A3BC8000FBB71 /* ViewController.swift in Sources */,
 				A90E03312180D46A00A0C41A /* CharacterSpacing.swift in Sources */,
 				A945173D217A3BC8000FBB71 /* AppDelegate.swift in Sources */,
-				A90E03372181108000A0C41A /* CustomSegControl.swift in Sources */,
+				A90E03372181108000A0C41A /* CustomSepControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,23 +9,31 @@
 /* Begin PBXBuildFile section */
 		A90E03312180D46A00A0C41A /* CharacterSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90E03302180D46A00A0C41A /* CharacterSpacing.swift */; };
 		A90E033521810ABF00A0C41A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A90E033421810ABE00A0C41A /* Assets.xcassets */; };
-		A90E03372181108000A0C41A /* CustomSepControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90E03362181108000A0C41A /* CustomSepControl.swift */; };
+		A90E03372181108000A0C41A /* CustomSegControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90E03362181108000A0C41A /* CustomSegControl.swift */; };
+		A944DAA021CC7B84001F9AC1 /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A944DA9F21CC7B84001F9AC1 /* WeatherDataModel.swift */; };
 		A945173D217A3BC8000FBB71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A945173C217A3BC8000FBB71 /* AppDelegate.swift */; };
-		A945173F217A3BC8000FBB71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A945173E217A3BC8000FBB71 /* ViewController.swift */; };
+		A945173F217A3BC8000FBB71 /* WeatherMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A945173E217A3BC8000FBB71 /* WeatherMainVC.swift */; };
 		A9451742217A3BC8000FBB71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9451740217A3BC8000FBB71 /* Main.storyboard */; };
 		A9451747217A3BCC000FBB71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9451745217A3BCC000FBB71 /* LaunchScreen.storyboard */; };
+		A9DF0273218367420070B9B6 /* PopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DF0272218367420070B9B6 /* PopupVC.swift */; };
+		F949DCBD307BF0D2CD717F86 /* Pods_SkyMood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB6CAE901A2BA731D35052B /* Pods_SkyMood.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CECAECC9294FDBC763B976C /* Pods-SkyMood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyMood.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkyMood/Pods-SkyMood.debug.xcconfig"; sourceTree = "<group>"; };
+		497DA587FDE44367F56DAC22 /* Pods-SkyMood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyMood.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkyMood/Pods-SkyMood.release.xcconfig"; sourceTree = "<group>"; };
+		4DB6CAE901A2BA731D35052B /* Pods_SkyMood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyMood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A90E03302180D46A00A0C41A /* CharacterSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSpacing.swift; sourceTree = "<group>"; };
 		A90E033421810ABE00A0C41A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A90E03362181108000A0C41A /* CustomSepControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSepControl.swift; sourceTree = "<group>"; };
+		A90E03362181108000A0C41A /* CustomSegControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegControl.swift; sourceTree = "<group>"; };
+		A944DA9F21CC7B84001F9AC1 /* WeatherDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
 		A9451739217A3BC8000FBB71 /* SkyMood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyMood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A945173C217A3BC8000FBB71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A945173E217A3BC8000FBB71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A945173E217A3BC8000FBB71 /* WeatherMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherMainVC.swift; sourceTree = "<group>"; };
 		A9451741217A3BC8000FBB71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9451746217A3BCC000FBB71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9451748217A3BCC000FBB71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9DF0272218367420070B9B6 /* PopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F949DCBD307BF0D2CD717F86 /* Pods_SkyMood.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7FF5FB965975122042E2A688 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DB6CAE901A2BA731D35052B /* Pods_SkyMood.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A9451730217A3BC8000FBB71 = {
 			isa = PBXGroup;
 			children = (
 				A945173B217A3BC8000FBB71 /* SkyMood */,
 				A945173A217A3BC8000FBB71 /* Products */,
+				FB050C75AE8692C4E6E90C7D /* Pods */,
+				7FF5FB965975122042E2A688 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,7 +89,8 @@
 		A945174E217A3BF1000FBB71 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				A945173E217A3BC8000FBB71 /* ViewController.swift */,
+				A945173E217A3BC8000FBB71 /* WeatherMainVC.swift */,
+				A9DF0272218367420070B9B6 /* PopupVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -89,9 +109,19 @@
 			children = (
 				A945173C217A3BC8000FBB71 /* AppDelegate.swift */,
 				A90E03302180D46A00A0C41A /* CharacterSpacing.swift */,
-				A90E03362181108000A0C41A /* CustomSepControl.swift */,
+				A90E03362181108000A0C41A /* CustomSegControl.swift */,
+				A944DA9F21CC7B84001F9AC1 /* WeatherDataModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		FB050C75AE8692C4E6E90C7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CECAECC9294FDBC763B976C /* Pods-SkyMood.debug.xcconfig */,
+				497DA587FDE44367F56DAC22 /* Pods-SkyMood.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -101,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A945174B217A3BCC000FBB71 /* Build configuration list for PBXNativeTarget "SkyMood" */;
 			buildPhases = (
+				A5760EF500010F0E5D67068F /* [CP] Check Pods Manifest.lock */,
 				A9451735217A3BC8000FBB71 /* Sources */,
 				A9451736217A3BC8000FBB71 /* Frameworks */,
 				A9451737217A3BC8000FBB71 /* Resources */,
+				A03BD3F3E99DCD3062C9D915 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,15 +192,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A03BD3F3E99DCD3062C9D915 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SkyMood/Pods-SkyMood-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkyMood/Pods-SkyMood-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5760EF500010F0E5D67068F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkyMood-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A9451735217A3BC8000FBB71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A945173F217A3BC8000FBB71 /* ViewController.swift in Sources */,
+				A945173F217A3BC8000FBB71 /* WeatherMainVC.swift in Sources */,
 				A90E03312180D46A00A0C41A /* CharacterSpacing.swift in Sources */,
+				A944DAA021CC7B84001F9AC1 /* WeatherDataModel.swift in Sources */,
 				A945173D217A3BC8000FBB71 /* AppDelegate.swift in Sources */,
-				A90E03372181108000A0C41A /* CustomSepControl.swift in Sources */,
+				A9DF0273218367420070B9B6 /* PopupVC.swift in Sources */,
+				A90E03372181108000A0C41A /* CustomSegControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +397,7 @@
 		};
 		A945174C217A3BCC000FBB71 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CECAECC9294FDBC763B976C /* Pods-SkyMood.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -330,6 +416,7 @@
 		};
 		A945174D217A3BCC000FBB71 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 497DA587FDE44367F56DAC22 /* Pods-SkyMood.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

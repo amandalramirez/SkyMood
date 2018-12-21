@@ -9,11 +9,12 @@
 import UIKit
 
 @IBDesignable
-class CustomSepControl: UIControl {
+class CustomSegControl: UIControl {
 
     // UIButton array that will hold 'options'
     var buttons = [UIButton]()
     var selector: UIView!
+    var selectedSegmentIndex = 0
     
     // Customizable Attributes...
     // ... for Buttons
@@ -64,6 +65,7 @@ class CustomSepControl: UIControl {
     // Makes rounded border
     // override func draw(_ rect: CGRect) {
     //      layer.cornerRadius = frame.height/2
+    //      updateView()
     // }
     
     func updateView() {
@@ -101,7 +103,7 @@ class CustomSepControl: UIControl {
         let stackViewForButtons = UIStackView(arrangedSubviews: buttons)
         stackViewForButtons.axis = .horizontal
         stackViewForButtons.alignment = .fill
-        stackViewForButtons.distribution = .fillProportionally
+        stackViewForButtons.distribution = .fillEqually
         addSubview(stackViewForButtons)
         
         // Sets constraints for the stack view
@@ -119,6 +121,7 @@ class CustomSepControl: UIControl {
             button.setTitleColor(textColor, for: .normal)
         
             if button == buttonSelected {
+                self.selectedSegmentIndex = buttonIndex
                 let selectorStartPosition = frame.width / CGFloat(buttons.count) * CGFloat(buttonIndex)
                 
                 // animation - selector button background color changes
@@ -129,17 +132,10 @@ class CustomSepControl: UIControl {
                 button.setTitleColor(selectorTextColor, for: .normal)
             }
         }
+        
+        sendActions(for: .valueChanged)
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
 }
 
 extension UIColor {
